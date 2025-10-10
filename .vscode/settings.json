@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/813c07cb-0063-40c9-a6d8-f83d6ed70bdf/resourceGroups/Portfolio/providers/Microsoft.Web/sites/vignesh-portfolio",
+    "appService.deploySubpath": "."
+}
