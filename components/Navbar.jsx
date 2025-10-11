@@ -2,6 +2,7 @@
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React, { useEffect, useRef, useState } from 'react'
+import { motion } from 'motion/react'
 
 const Navbar = ({ isDarkMode, setIsDarkMode }) => {
 
@@ -54,16 +55,34 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
           </button>
         </div>
         {/* Mobile Menu */}
-        <ul ref={sideMenuRef} className='duration-500 flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-rose-50 transiton duration-500 backdrop-blur-lg dark:bg-[var(--color-dark-hover)/75] dark:text-white'>
+        <ul ref={sideMenuRef} className='text-white bg-[var(--color-dark-hover)] duration-500 flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen transiton duration-500 dark:bg-[var(--color-light-hover)] dark:text-black'>
             <div className='absolute top-6 right-6' onClick={closeMenu}>
-              <Image src={isDarkMode ? assets.close_white : assets.close_black} alt="" className='w-5 cursor-pointer'/>
+              <Image src={isDarkMode ? assets.close_black : assets.close_white} alt="" className='w-5 cursor-pointer'/>
             </div>
 
-            <li><a className="font-jost" onClick={closeMenu} href="#top">Home</a></li>
-            <li><a className="font-jost" onClick={closeMenu} href="#about">About Me</a></li>
-            <li><a className="font-jost" onClick={closeMenu} href="#services">Services</a></li>
-            <li><a className="font-jost" onClick={closeMenu} href="#portfolio">Portfolio</a></li>
-            <li><a className="font-jost" onClick={closeMenu} href="#contact">Contact Me</a></li>
+            <motion.li
+            initial={{ opacity: 0,y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.5 }}>
+            <a className="font-jost" onClick={closeMenu} href="#top">Home</a></motion.li>
+            <motion.li
+            initial={{ opacity: 0,y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.5 }}>
+            <a className="font-jost" onClick={closeMenu} href="#about">About Me</a></motion.li>
+            <motion.li
+            initial={{ opacity: 0,y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.7 }}>
+            <a className="font-jost" onClick={closeMenu} href="#services">Services</a></motion.li>
+            <motion.li
+            initial={{ opacity: 0,y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.9 }}><a className="font-jost" onClick={closeMenu} href="#portfolio">Portfolio</a></motion.li>
+            <motion.li
+            initial={{ opacity: 0,y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 1.2 }}><a className="font-jost" onClick={closeMenu} href="#contact">Contact Me</a></motion.li>
         </ul>
     </nav>
       
