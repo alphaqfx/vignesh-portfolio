@@ -34,7 +34,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
            <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt="logo" className='w-32 cursor-pointer mr-14'/>
         </a>
         <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll? "":"bg-white shadow-sm bg-opacity-50 duration-500 dark:border border-white/50 dark:bg-transparent"} `}>
-            <li><a className="font-jost" href="#top">Home</a></li>
+            <li><a className="font-jost" href="/">Home</a></li>
             <li><a className="font-jost" href="#about">About Me</a></li>
             <li><a className="font-jost" href="#services">Services</a></li>
             <li><a className="font-jost" href="#portfolio">Portfolio</a></li>
@@ -63,7 +63,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <motion.li
             initial={{ opacity: 0,y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.5 }}>
+            transition={{ duration: 0.5, delay: 0.3 }}>
             <a className="font-jost" onClick={closeMenu} href="#top">Home</a></motion.li>
             <motion.li
             initial={{ opacity: 0,y: 20 }}
