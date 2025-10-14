@@ -35,9 +35,20 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import canva from './canva.png';
+import analytics from './analytics.png';
+import console from './console.png';
+import hootsuite from './hootsuite.png';
+import ads from './ads.png';
+import after_effects from './after-effects.png';
+import illustrator from './illustrator.png';
+import premiere from './premiere.png';
 
 export const assets = {
     user_image,
+    after_effects,
+    illustrator,
+    premiere,
     code_icon,
     code_icon_dark,
     edu_icon,
@@ -73,7 +84,12 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    canva,
+    analytics,
+    console,
+    hootsuite,
+    ads
 };
 
 export const workData = [
@@ -100,22 +116,25 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web Design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'SEO Optimization', description: 'SEO optimization involves improving the visibility of a website...', link: '' },
-    { icon: assets.ui_icon, title: 'Promotional Media', description: 'Promotional media focuses on creating engaging content to promote a brand...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics Design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.mobile_icon, title: 'Social Media Marketing', description: 'Social media marketing involves promoting products or services...', link: 'https://en.wikipedia.org/wiki/Social_media_marketing' },
+    { icon: assets.web_icon, title: 'Search Engine Optimization', description: 'SEO marketing involves improving the visibility of a website...', link: 'https://en.wikipedia.org/wiki/Search_engine_optimization' },
+    { icon: assets.ui_icon, title: 'Promotional Content Marketing', description: 'Promotional content marketing focuses on creating engaging...', link: 'https://en.wikipedia.org/wiki/Content_marketing' },
+    { icon: assets.graphics_icon, title: 'Graphics & Media Production', description: 'Graphics and media production involves creating visual...', link: 'https://en.wikipedia.org/wiki/Graphic_design' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Specialization', description: 'Content Creation, Marketing Analysis & Branding' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Google Certified', description: 'Digital Marketing & E-Commerce Professional' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Marketing Campaigns & Brand Establishments' }
 ];
 
 export const toolsData = [
-    { tool: assets.vscode}, 
-    { tool: assets.firebase}, 
-    { tool: assets.mongodb}, 
-    { tool: assets.figma}, 
-    { tool: assets.git}
+    { tool: assets.analytics}, 
+    { tool: assets.canva}, 
+    { tool: assets.console}, 
+    { tool: assets.hootsuite}, 
+    { tool: assets.ads},
+    { tool: assets.after_effects},
+    { tool: assets.illustrator},
+    { tool: assets.premiere}
 ];

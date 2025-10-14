@@ -14,7 +14,7 @@ const Portfolio = ({isDarkMode}) => {
         
         <div className="relative w-full max-w-2xl h-0 pb-[56.25%] rounded-2xl overflow-hidden shadow-lg">
           <iframe
-          src="https://www.youtube.com/embed/S14ptPVGEcU?autoplay=1&mute=1&loop=1&playlist=S14ptPVGEcU&modestbranding=1&rel=0&controls=1"
+          src="https://www.youtube.com/embed/S14ptPVGEcU?autoplay=0&mute=0&loop=1&playlist=S14ptPVGEcU&modestbranding=1&rel=0&controls=1"
           title="YouTube Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowFullScreen
@@ -23,7 +23,7 @@ const Portfolio = ({isDarkMode}) => {
         </div>
         <div className="relative w-full max-w-2xl h-0 pb-[56.25%] rounded-2xl overflow-hidden shadow-lg">
           <iframe
-          src="https://www.youtube.com/embed/T2SN93Lmv-I?autoplay=1&mute=1&loop=1&playlist=T2SN93Lmv-I&modestbranding=1&rel=0&controls=1"
+          src="https://www.youtube.com/embed/T2SN93Lmv-I?autoplay=0&mute=0&loop=1&playlist=T2SN93Lmv-I&modestbranding=1&rel=0&controls=1"
           title="YouTube Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowFullScreen
@@ -32,7 +32,7 @@ const Portfolio = ({isDarkMode}) => {
         </div>
         <div className="relative w-full max-w-2xl h-0 pb-[56.25%] rounded-2xl overflow-hidden shadow-lg">
           <iframe
-          src="https://www.youtube.com/embed/fo1tO3TLH5s?autoplay=1&mute=1&loop=1&playlist=fo1tO3TLH5s&modestbranding=1&rel=0&controls=1"
+          src="https://www.youtube.com/embed/fo1tO3TLH5s?autoplay=0&mute=0&loop=1&playlist=fo1tO3TLH5s&modestbranding=1&rel=0&controls=1"
           title="YouTube Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowFullScreen
@@ -41,7 +41,7 @@ const Portfolio = ({isDarkMode}) => {
         </div>
         <div className="relative w-full max-w-2xl h-0 pb-[56.25%] rounded-2xl overflow-hidden shadow-lg">
           <iframe
-          src="https://www.youtube.com/embed/8cD6Cym5xpQ?autoplay=1&mute=1&loop=1&playlist=8cD6Cym5xpQ&modestbranding=1&rel=0&controls=1"
+          src="https://www.youtube.com/embed/8cD6Cym5xpQ?autoplay=0&mute=0&loop=1&playlist=8cD6Cym5xpQ&modestbranding=1&rel=0&controls=1"
           title="YouTube Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowFullScreen
@@ -50,7 +50,7 @@ const Portfolio = ({isDarkMode}) => {
         </div>
         <div className="relative w-full max-w-2xl h-0 pb-[56.25%] rounded-2xl overflow-hidden shadow-lg">
           <iframe
-          src="https://www.youtube.com/embed/AG-GQBBh0r4?autoplay=1&mute=1&loop=1&playlist=AG-GQBBh0r4&modestbranding=1&rel=0&controls=1"
+          src="https://www.youtube.com/embed/AG-GQBBh0r4?autoplay=0&mute=0&loop=1&playlist=AG-GQBBh0r4&modestbranding=1&rel=0&controls=1"
           title="YouTube Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowFullScreen
@@ -59,12 +59,11 @@ const Portfolio = ({isDarkMode}) => {
         </div>
         <div className="relative w-full max-w-2xl h-0 pb-[56.25%] rounded-2xl overflow-hidden shadow-lg">
           <iframe
-          src="https://www.youtube.com/embed/KIMmt0EcFt8?autoplay=1&mute=1&loop=1&playlist=KIMmt0EcFt8&modestbranding=1&rel=0&controls=1"
+          src="https://www.youtube.com/embed/KIMmt0EcFt8?autoplay=0&mute=0&loop=1&playlist=KIMmt0EcFt8&modestbranding=1&rel=0&controls=1"
           title="YouTube Video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
           allowFullScreen
           className="absolute top-0 left-0 w-full h-full"
-          fo1tO3TLH5s
           ></iframe>
         </div>
       </div>
