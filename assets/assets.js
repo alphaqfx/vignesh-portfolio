@@ -133,8 +133,5 @@ export const toolsData = [
     { tool: assets.canva}, 
     { tool: assets.console}, 
     { tool: assets.hootsuite}, 
-    { tool: assets.ads},
     { tool: assets.after_effects},
-    { tool: assets.illustrator},
-    { tool: assets.premiere}
 ];
