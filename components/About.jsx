@@ -19,7 +19,7 @@ return (
         <ul className='grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl'>
             {infoList.map(({icon, iconDark, title, description},index) => (
                 <li 
-                className='backdrop-blur-sm border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[var(--color-light-hover)] hover:-translate-y-1 duration-500 hover:shadow-[var(--shadow-black)] dark:border-white dark:hover:shadow-[var(--shadow-white)] dark:bg-transparent dark:hover:bg-[var(--color-dark-hover)]' key={index}>
+                className='backdrop-blur-sm border-[0.5px] border-gray-400 rounded-xl p-6 hover:bg-[var(--color-light-hover)] hover:-translate-y-1 duration-500 hover:shadow-[var(--shadow-black)] dark:border-white dark:hover:shadow-[var(--shadow-white)] dark:bg-transparent dark:hover:bg-[var(--color-dark-hover)]' key={index}>
                     <Image src={isDarkMode ? iconDark : icon} alt={title} className='w-7 flex items-center justify-center'/>
                     <h3 className='my-4 font-semibold text-gray-700 dark:text-white'>{title}</h3>
                     <p className='text-gray-600 text-sm dark:text-white/80'>{description}</p>
@@ -30,7 +30,7 @@ return (
         <h4 className='text-lg my-6 text-gray-700 font-jost dark:text-white/80'>Tools I use</h4>
         <ul className='flex items-center gap-3 sm:gap-5'>
             {toolsData.map(({tool, link},index) => (tool ? (
-            <li className='backdrop-blur-sm bg-white flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[var(--shadow-black)] dark:border-white dark:hover:shadow-[var(--shadow-white)] dark:bg-transparent dark:hover:bg-[var(--color-dark-hover)]' key={index}>
+            <li className='backdrop-blur-sm flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[var(--shadow-black)] dark:border-white dark:hover:shadow-[var(--shadow-white)] dark:bg-transparent dark:hover:bg-[var(--color-dark-hover)]' key={index}>
                 <a href={link} target="_blank" rel="noopener noreferrer">
                     <Image src={tool} alt="Tool" className='w-5 sm:w-7'/>
                 </a>
