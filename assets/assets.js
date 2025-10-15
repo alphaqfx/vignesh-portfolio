@@ -44,6 +44,7 @@ import after_effects from './after-effects.png';
 import illustrator from './illustrator.png';
 import premiere from './premiere.png';
 
+
 export const assets = {
     user_image,
     after_effects,
@@ -89,7 +90,8 @@ export const assets = {
     analytics,
     console,
     hootsuite,
-    ads
+    ads,
+    
 };
 
 export const workData = [
@@ -123,15 +125,15 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Specialization', description: 'Content Creation, Marketing Analysis & Branding' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Specialization', description: 'Social Media Strategies, Analytics & Advertising' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Google Certified', description: 'Digital Marketing & E-Commerce Professional' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Marketing Campaigns & Brand Establishments' }
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Experience', description: 'Ad Campaigns, Content Creation & Branding' }
 ];
 
 export const toolsData = [
-    { tool: assets.analytics}, 
-    { tool: assets.canva}, 
-    { tool: assets.console}, 
-    { tool: assets.hootsuite}, 
-    { tool: assets.after_effects},
+    { tool: assets.analytics, link: 'https://analytics.google.com/analytics/web/'}, 
+    { tool: assets.canva, link: 'https://www.canva.com/'}, 
+    { tool: assets.console, link: 'https://search.google.com/search-console/about'}, 
+    { tool: assets.hootsuite, link: 'https://hootsuite.com/'}, 
+    { tool: assets.after_effects, link: 'https://www.adobe.com/products/aftereffects.html'},
 ];

@@ -29,9 +29,11 @@ return (
 
         <h4 className='text-lg my-6 text-gray-700 font-jost dark:text-white/80'>Tools I use</h4>
         <ul className='flex items-center gap-3 sm:gap-5'>
-            {toolsData.map(({tool},index) => (tool ? (
+            {toolsData.map(({tool, link},index) => (tool ? (
             <li className='backdrop-blur-sm bg-white flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[var(--shadow-black)] dark:border-white dark:hover:shadow-[var(--shadow-white)] dark:bg-transparent dark:hover:bg-[var(--color-dark-hover)]' key={index}>
-                <Image src={tool} alt="Tool" className='w-5 sm:w-7'/>
+                <a href={link} target="_blank" rel="noopener noreferrer">
+                    <Image src={tool} alt="Tool" className='w-5 sm:w-7'/>
+                </a>
             </li>
             ):null))}
         </ul> 
