@@ -64,12 +64,13 @@ export default function Home() {
     <About isDarkMode={isDarkMode} />
     <Services isDarkMode={isDarkMode} />
     <Portfolio isDarkMode={isDarkMode} />
-    <div style={{ height: '200px', position: 'relative', overflow: 'hidden'}}>
+    <div style={{ height: '200px', position: 'relative'}}>
+      <h4 className='text-center mb-5 text-2xl font-jost'>Trusted by Brands</h4>
       <LogoLoop
         logos={imageLogos}
         speed={75}
         direction="left"
-        logoHeight={125}
+        logoHeight={100}
         gap={50}
         pauseOnHover
         scaleOnHover
