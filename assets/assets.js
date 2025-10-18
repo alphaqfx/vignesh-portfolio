@@ -43,6 +43,21 @@ import ads from './ads.png';
 import after_effects from './after-effects.png';
 import illustrator from './illustrator.png';
 import premiere from './premiere.png';
+import qs from './qs.png';
+import qs_light from './qs_light.png';
+import aqx from './aqx.png';
+import aqx_light from './aqx_light.png';
+import pcs from './pcs.png';
+import pcs_light from './pcs_light.png';
+import ferro from './ferro.png';
+import ferro_light from './ferro_light.png';
+import lm from './lm.png';
+import lm_light from './lm_light.png';
+import pplus from './pplus.png';
+import pplus_light from './pplus_light.png';
+import lc from './lc.png';
+import lc_light from './lc_light.png';
+
 
 
 export const assets = {
@@ -91,6 +106,20 @@ export const assets = {
     console,
     hootsuite,
     ads,
+    qs,
+    qs_light,
+    aqx,
+    aqx_light,
+    pcs,
+    pcs_light,
+    ferro,
+    ferro_light,
+    lm,
+    lm_light,
+    pplus,
+    pplus_light,
+    lc,
+    lc_light
     
 };
 

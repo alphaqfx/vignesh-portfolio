@@ -33,7 +33,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
         <a href="#top">
            <Image src={isDarkMode ? assets.logo_dark : assets.logo} alt="logo" className='w-32 cursor-pointer mr-14'/>
         </a>
-        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll? "":"bg-white shadow-sm bg-opacity-50 duration-500 dark:border border-white/50 dark:bg-transparent"} `}>
+        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll? "":"backdrop-blur-lg bg-white shadow-sm bg-opacity-50 duration-500 dark:border border-white/50 dark:bg-transparent"} `}>
             <li><a className="font-jost" href="/">Home</a></li>
             <li><a className="font-jost" href="#about">About Me</a></li>
             <li><a className="font-jost" href="#services">Services</a></li>
