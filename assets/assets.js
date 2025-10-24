@@ -57,11 +57,36 @@ import pplus from './pplus.png';
 import pplus_light from './pplus_light.png';
 import lc from './lc.png';
 import lc_light from './lc_light.png';
+import linkedin_dark from './linkedin_dark.png';
+import linkedin_light from './linkedin_light.png';
+import x_dark from './x_dark.png';
+import x_light from './x_light.png';
+import whatsapp_dark from './whatsapp_dark.png';
+import whatsapp_light from './whatsapp_light.png';
+import instagram_dark from './instagram_dark.png';
+import instagram_light from './instagram_light.png';
+import facebook_dark from './facebook_dark.png';
+import facebook_light from './facebook_light.png';
+import youtube_dark from './youtube_dark.png';
+import youtube_light from './youtube_light.png';
+
 
 
 
 export const assets = {
     user_image,
+    youtube_light,
+    youtube_dark,
+    facebook_light,
+    facebook_dark,
+    instagram_light,
+    instagram_dark,
+    whatsapp_dark,
+    whatsapp_light,
+    x_light,
+    x_dark,
+    linkedin_dark,
+    linkedin_light,
     after_effects,
     illustrator,
     premiere,
