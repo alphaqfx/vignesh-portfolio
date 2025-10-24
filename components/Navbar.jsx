@@ -86,11 +86,12 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <div><motion.li
             initial={{ opacity: 0,y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 1.5 }}><ul className='mt-50 grid grid-cols-4 gap-5' >
-            <li><a target='_blank' href="https://github.com/vignesh-uthiravelu"><Image src={isDarkMode ? assets.instagram_dark : assets.instagram_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li>
-            <li><a target='_blank' href="https://www.linkedin.com/in/vigneshuthiravelu/"><Image src={isDarkMode ? assets.facebook_dark : assets.facebook_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li>
-            <li><a target='_blank' href="https://www.instagram.com/vignesh_uthiravelu/"><Image src={isDarkMode ? assets.youtube_dark : assets.youtube_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li>
-            <li><a target='_blank' href="https://www.instagram.com/vignesh_uthiravelu/"><Image src={isDarkMode ? assets.whatsapp_dark : assets.whatsapp_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li></ul></motion.li>
+            transition={{ duration: 0.5, delay: 1.5 }}><ul className='mt-20 grid grid-cols-4 gap-5' >
+            <li><a target='_blank' href="https://www.instagram.com/vignite.digital/"><Image src={isDarkMode ? assets.instagram_dark : assets.instagram_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li>
+            <li><a target='_blank' href="https://www.facebook.com/profile.php?id=61582332733444"><Image src={isDarkMode ? assets.facebook_dark : assets.facebook_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li>
+            <li><a target='_blank' href=""><Image src={isDarkMode ? assets.whatsapp_dark : assets.whatsapp_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li>
+            <li><a target='_blank' href="https://www.youtube.com/@vignite.digital"><Image src={isDarkMode ? assets.youtube_dark : assets.youtube_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li>
+            </ul></motion.li>
             </div>
 
         </ul>

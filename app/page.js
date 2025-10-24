@@ -65,7 +65,7 @@ export default function Home() {
     <Services isDarkMode={isDarkMode} />
     <Portfolio isDarkMode={isDarkMode} />
     <div style={{ height: '200px', position: 'relative'}}>
-      <h4 className='text-center mb-5 text-2xl font-jost'>Trusted by Brands</h4>
+      <h4 className='text-center mb-6 text-2xl font-jost'>Trusted by Brands</h4>
       <LogoLoop
         logos={imageLogos}
         speed={75}
