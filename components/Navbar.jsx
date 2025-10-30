@@ -83,7 +83,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             initial={{ opacity: 0,y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1.2 }}><a className="font-jost" onClick={closeMenu} href="#contact">Contact Me</a></motion.li>
-            <div><motion.li
+            {/* <div><motion.li
             initial={{ opacity: 0,y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1.5 }}><ul className='mt-20 grid grid-cols-4 gap-5' >
@@ -92,7 +92,7 @@ const Navbar = ({ isDarkMode, setIsDarkMode }) => {
             <li><a target='_blank' href=""><Image src={isDarkMode ? assets.whatsapp_dark : assets.whatsapp_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li>
             <li><a target='_blank' href="https://www.youtube.com/@vignite.digital"><Image src={isDarkMode ? assets.youtube_dark : assets.youtube_light} alt="" style="width: 50px; height: 50px;" className='w-6'/></a></li>
             </ul></motion.li>
-            </div>
+            </div> */}
 
         </ul>
     </nav>
